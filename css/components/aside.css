@@ -1,0 +1,11 @@
+.aside__bar {
+  margin: 0 1rem 1rem;
+}
+
+.aside__bar .banner__item {
+  margin-bottom: 1rem;
+}
+
+.aside__bar .banner__item:first-child {
+  padding: 6rem 1rem;
+}

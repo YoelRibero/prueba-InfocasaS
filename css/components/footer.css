@@ -1,0 +1,32 @@
+.footer {
+  border-top: 1px solid var(--site-color-primary);
+  margin: 1rem 1rem 0;
+  padding: 1rem 0;
+}
+
+.footer__logo {
+  margin: 0 auto;
+  width: 20%;
+}
+
+.footer__logo img {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .footer {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer__logo {
+    margin: 0;
+    width: auto;
+  }
+  .footer__logo figure {
+    width: 70px;
+  }
+  .footer__menu a {
+    padding-left: 2rem;
+  }
+}

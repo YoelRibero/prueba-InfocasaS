@@ -1,0 +1,14 @@
+.menu ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.menu ul li {
+  width: 25%;
+  text-align: center;
+}
+
+.menu ul li a {
+  
+}

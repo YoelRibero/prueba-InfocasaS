@@ -1,0 +1,44 @@
+.main__banner {
+  border-bottom: 1px solid var(--site-color-primary);
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+}
+
+.main__banner--dots ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 1rem 0 0;
+}
+
+.main__banner--dots a {
+  background-color: #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+  display: block;
+  height: .6rem;
+  margin-right: 1rem;
+  width: .6rem;
+}
+
+.main__banner--dots .active a {
+  background-color: var(--site-color-primary);
+}
+
+@media screen and (min-width: 768px) {
+  .main__banner {
+    margin: 0 1rem 1rem;
+  }
+  .main__banner .banner__content {
+    width: 50%;
+  }
+  .main__banner .banner__item {
+    padding: 2rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .main__banner .banner__item {
+    padding: 2rem 4rem;
+  }
+}

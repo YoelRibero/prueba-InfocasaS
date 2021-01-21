@@ -15,7 +15,7 @@ export const MainBanner = () => {
   return (
     <section className="main__banner">
       <ul>
-        <Banner {...banner} onTouchStart={e => console.log(e)} />
+        <Banner {...banner}/>
       </ul>
       <div className="main__banner--dots">
           <ul>
